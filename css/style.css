@@ -5,7 +5,7 @@
 }
 body {
     width: 100%;
-    height: 100vh;
+    height: 65vh;
     background: url("../img/abc.jpg") no-repeat center center/cover;
 }
 
@@ -24,7 +24,7 @@ body {
     display: flex;
     /* flex: 1; */
     flex-direction: column;
-    padding: 3px 100px;
+    padding: 6px 100px;
     justify-content: center;
     height: 570px;
     align-items: center;
@@ -46,22 +46,25 @@ body {
 .center {
     text-align: center;
     font-size: 19px;
+    color: whitesmoke;
 }
 .h-primary {
     font-size: 3.2rem;
     padding: 30px;
     font-family:'Roboto', sans-serif;
+    color: whitesmoke;
     /* font-weight: bolder; */
 }
 .h-secondary {
     font-size: 1.6rem;
     padding: 12px;
     font-family:'Roboto', sans-serif;
+    color: whitesmoke;
 }
 .btn {
     padding: 6px 20px;
     font-family:'Roboto', sans-serif;
-    border: 1px solid black;
+    border: 2px solid rgba(0, 0, 0, 0.931);
     background-color: brown;
     color: whitesmoke;
     margin: 40px;
@@ -73,27 +76,25 @@ body {
 
 .btn:hover {
     background-color: grey;
+    color: white;
 }
 
 /* Client section  */
 
-#client-section {
+/* #client-section {
     height: 270px;
     position: relative;
-}
+} */
 
 .education-container {
-    /* background-color: grey; */
-    /* background: url("../img/education.jpg") no-repeat center center/cover; */
+    background-color: rgba(0, 0, 0, 0.931);
     font-family:'Roboto', sans-serif;
     width: 100%;
-    height: 65vh;
-    /* padding: 10px 10px; */
+    height: 64.1vh;
 }
 
 
 .grid-container {
-    /* background-color: chartreuse; */
     font-family:'Roboto', sans-serif;
     display: inline-grid;
     grid-template-columns: auto auto auto;
@@ -104,7 +105,6 @@ body {
   
   .grid-item {
     font-family:'Roboto', sans-serif;
-    border: 2px solid rgba(0, 0, 0, 0.8);
     padding: 5px 5px;
     border-radius: 20px;
     font-size: 20px;
@@ -115,7 +115,7 @@ body {
     background: url("../img/background.jpg") no-repeat center center/cover;
 }
 #project-2 {
-    background: url("../img/abc.jpg") no-repeat center center/cover;
+    background: url("../img/background.jpg") no-repeat center center/cover;
 }
 #project-3 {
     background: url("../img/background.jpg") no-repeat center center/cover;
@@ -139,7 +139,27 @@ body {
     background: url("../img/background.jpg") no-repeat center center/cover;
 }
 
+#experience-1 {
+    background: url("../img/background.jpg") no-repeat center center/cover;
+}
+#experience-2 {
+    background: url("../img/background.jpg") no-repeat center center/cover;
+}
+#experience-3 {
+    background: url("../img/background.jpg") no-repeat center center/cover;
+}
+#experience-4 {
+    background: url("../img/background.jpg") no-repeat center center/cover;
+}
+#experience-5 {
+    background: url("../img/background.jpg") no-repeat center center/cover;
+}
+#experience-6 {
+    background: url("../img/background.jpg") no-repeat center center/cover;
+}
+
 .publication-container {
+    background-color: rgba(0, 0, 0, 0.931);
     font-family:'Roboto', sans-serif;
     padding: 5px 5px;
     width: 100%;
@@ -148,11 +168,24 @@ body {
 }
 
 .contact-container {
+    background-color: rgba(0, 0, 0, 0.931);
     font-family:'Roboto', sans-serif;
     width: 100%;
     height: 28vh;
     /* background: url("../img/contact.jpg") no-repeat center center/cover; */
     /* background-color: indianred; */
+}
+
+.experience-container{
+    background-color: rgba(0, 0, 0, 0.931);
+    width: 100%;
+}
+
+.project-container {
+    background-color: rgba(0, 0, 0, 0.931);
+    width: 100%;
+    height: 102vh;
+    /* background-color: rgba(0, 0, 0, 0.849); */
 }
 
 
