@@ -1,0 +1,304 @@
+/* CSS reset  */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/abc.jpg") no-repeat center center/cover;
+}
+    /* opacity: 0.70;
+
+
+
+/* CSS VARIABLES */
+:root {
+    --navbar-height: 30px;
+}
+
+#navbar {
+    position: relative;
+    display: flex;
+    align-items:center ;
+    padding: 0px 0px;
+    height: 80px;
+    margin: 0px 0px;
+}
+
+
+/* #navbar ul {
+    display: flex;
+    font-size: 1.3rem;
+    font-family: 'Merriweather Sans', sans-serif;
+} */
+
+/* #navbar::before {
+    position: absolute;
+    background-color: transparent;
+    content: "";
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+} */
+
+/* #navbar ul li {
+    display: flex;
+    list-style: none;
+    padding: 3px 10px;
+    font-size: 1.1rem;
+}
+#navbar ul li a {
+    color: whitesmoke;
+    display: block;
+    padding: 3px 10px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color:silver;
+} */
+
+/* # Home section */
+
+#home {
+    display: flex;
+    /* flex: 1; */
+    flex-direction: column;
+    padding: 3px 100px;
+    justify-content: center;
+    height: 570px;
+    align-items: center;
+}
+/* #home::before{
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    background-color: springgreen;
+    /* background: url("../img/background.jpg") no-repeat center center/cover; */
+    /* width: 100%;
+    height: 100vh;
+    z-index: -1;
+    opacity: 0.89; */
+/* } */ 
+#home h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-size: 4.0rem;
+}
+#home p {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family:'Roboto', sans-serif;
+}
+
+
+/* # services section  */
+/* #services {
+    margin: 40px;
+    display: flex;
+}
+
+#services .box {
+    border: 2px solid rgb(14, 14, 14);
+    padding: 12px;
+    margin: 3px 6px;
+    background-color: rgb(241, 235, 235);
+    border-radius: 10px;
+
+}
+#services .box img {
+    height: 150px;
+    margin: auto;
+    display: block;
+}
+#services .box p {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 15px;
+} */
+
+/* utility classes */
+.center {
+    text-align: center;
+    font-size: 19px;
+}
+.h-primary {
+    font-size: 3.2rem;
+    padding: 30px;
+    font-family:'Roboto', sans-serif;
+    /* font-weight: bolder; */
+}
+.h-secondary {
+    font-size: 1.6rem;
+    padding: 12px;
+    font-family:'Roboto', sans-serif;
+}
+.btn {
+    padding: 6px 20px;
+    font-family:'Roboto', sans-serif;
+    border: 2px solid whitesmoke;
+    background-color: brown;
+    color: whitesmoke;
+    margin: 40px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Client section  */
+
+#client-section {
+    height: 270px;
+    position: relative;
+}
+
+.education-container {
+    /* background-color: grey; */
+    /* background: url("../img/education.jpg") no-repeat center center/cover; */
+    font-family:'Roboto', sans-serif;
+    width: 100%;
+    height: 65vh;
+    /* padding: 10px 10px; */
+}
+
+
+.grid-container {
+    /* background-color: chartreuse; */
+    font-family:'Roboto', sans-serif;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;    
+    padding: 10px 10px;
+  }
+  
+  .grid-item {
+    font-family:'Roboto', sans-serif;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 5px 5px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+#project-1 {
+    background: url("../img/background.jpg") no-repeat center center/cover;
+}
+#project-2 {
+    background: url("../img/abc.jpg") no-repeat center center/cover;
+}
+#project-3 {
+    background: url("../img/background.jpg") no-repeat center center/cover;
+}
+#project-4 {
+    background: url("../img/background.jpg") no-repeat center center/cover;
+}
+#project-5 {
+    background: url("../img/background.jpg") no-repeat center center/cover;
+}
+#project-6 {
+    background: url("../img/background.jpg") no-repeat center center/cover;
+}
+#project-7 {
+    background: url("../img/background.jpg") no-repeat center center/cover;
+}
+#project-8 {
+    background: url("../img/background.jpg") no-repeat center center/cover;
+}
+#project-9 {
+    background: url("../img/background.jpg") no-repeat center center/cover;
+}
+
+.publication-container {
+    font-family:'Roboto', sans-serif;
+    padding: 5px 5px;
+    width: 100%;
+    height: 25vh;
+    /* background: url("../img/education.jpg") no-repeat center center/cover; */
+}
+
+.contact-container {
+    font-family:'Roboto', sans-serif;
+    width: 100%;
+    height: 28vh;
+    /* background: url("../img/contact.jpg") no-repeat center center/cover; */
+    /* background-color: indianred; */
+}
+
+/* #client-section::before {
+    content: "";
+    position: absolute;
+    background : url("../img/bg.jpg");
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients img {
+    height: 110px;
+}
+
+.client-item {
+    padding: 34px;
+} */
+
+/* # contact section  */
+
+/* #contact {
+    position: relative;
+}
+
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url("../img/contact.jpg") no-repeat center center/cover;
+}
+
+#contact-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 34px;
+} */
+
+/* #contact-box input,
+#contact-box textarea {
+    width: 100%;
+    padding: 0.2rem;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+
+#contact-box form {
+    width: 40%;
+}
+
+#contact-box form label {
+    font-size: 1.3rem;
+    font-family:'Merriweather Sans', sans-serif;
+} */
+
+
+
+
+/* FOOTER   */
+
+
